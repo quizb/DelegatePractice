@@ -96,6 +96,7 @@ class Program
     {
         Console.WriteLine($"账户余额已更改：{balance:C}");
     }
+    //发布者：BankAccount 类,订阅者：Program 类,事件：BalanceChanged,委托：AccountBalanceEventHandler
     #endregion
 }
 }
